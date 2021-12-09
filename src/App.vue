@@ -2,18 +2,22 @@
   <div id="app">
     <Header />
     <Maincontent />
+    <Footer />
   </div>
 </template>
 
 <script>
-import Header from './components/Header.Vue'
-import Maincontent from './components/Maincontent.Vue'
+import Header from '@/components/Header.vue'
+import Maincontent from '@/components/Maincontent.vue'
+import Footer from '@/components/Footer.vue'
 
 export default {
   name: 'App',
+
   components: {
     Header,
-    Maincontent
+    Maincontent,
+    Footer,
   },
 }
 </script>
