@@ -7,7 +7,6 @@
             <div class="button">
                 <a href="#">{{ButtonText}}</a>
                 <img src="../assets/images/slider_next.png" alt="">
-                
             </div>
         </div>
     </div>
