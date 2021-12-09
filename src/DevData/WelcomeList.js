@@ -1,7 +1,7 @@
 export default 
 [
     {
-        img: 'slider_icon17.png',
+        img: 'schoolbag_alt.png',
         title: 'Morbi Etos',
         text: 'Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent.'
     },
@@ -13,7 +13,7 @@ export default
     },
 
     {
-        img: 'slider_icon15.png',
+        img: 'globe_alt.png',
         title: 'Maecenas Node',
         text: 'Praesent interdum est gravida vehicula est node maecenas loareet morbi a dosis luctus novum est praesent.'
     },

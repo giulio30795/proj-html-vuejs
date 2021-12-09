@@ -7,7 +7,7 @@
         <Divider 
         :Title="Title1"
         :Subtitle="Subtitle1"/>
-        
+        <WelcomePart />
 
     </div>
 </template>
@@ -15,12 +15,14 @@
 <script>
 import Bar from './Bar.vue'
 import Divider from './Divider.vue'
+import WelcomePart from './WelcomePart.vue'
 export default {
 name: 'Maincontent',
 
 components:{
     Bar,
     Divider,
+    WelcomePart,
 },
 
 data() {
