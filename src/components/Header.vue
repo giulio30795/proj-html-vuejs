@@ -1,9 +1,9 @@
 <template>
-    <header>
-        <img src="../assets/logo.png" alt="logo-fable">
-        <ul>
-            <li v-for="(element, index) in headerElements" :key="`list-${index}`">
-                <img :src="require(`@/assets/${element.img}`)" :alt="element.img">
+    <header class=" container d-flex justify-content-center align-items-center">
+        <img class="logo" src="../assets/logo.png" alt="logo-fable">
+        <ul class="list-unstyled d-flex mb-0">
+            <li class=" d-flex flex-column align-items-center py-3 px-2" v-for="(element, index) in headerElements" :key="`list-${index}`">
+                <img class="mb-1" :src="require(`@/assets/${element.img}`)" :alt="element.img">
                 <h4>{{element.text}}</h4>
             </li>
         </ul>
@@ -20,10 +20,37 @@ data(){
         headerElements: HeaderMenu,
     }
 },
+
 }
 
 </script>
 
-<style>
+<style scoped lang="scss">
+@import "@/style/variables.scss";
 
+li {
+    height:100%;
+    width:80px;
+    &:hover{
+        background-color: $main;
+        &:hover h4{
+            color:white;
+        }
+    }
+    img{
+        width:20px
+    }
+}
+.logo {
+    width: 120px;
+    height:100%;
+    margin-right: 80px;
+}
+h4{
+    font-size: .7rem;
+    font-weight: 400;
+    color: $secondary;
+    margin: 5px 0;
+
+}
 </style>
