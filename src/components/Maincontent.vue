@@ -7,7 +7,7 @@
         <Divider 
         :Title="Title1"
         :Subtitle="Subtitle1"/>
-
+        
 
     </div>
 </template>
