@@ -32,9 +32,15 @@ li {
     height:100%;
     width:80px;
     &:hover{
+        transition: .3s;
         background-color: $main;
         &:hover h4{
+            transition: .3s;
             color:white;
+        }
+        &:hover img{
+            transition: .3s;
+            filter: brightness(100)
         }
     }
     img{
