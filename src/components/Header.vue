@@ -31,6 +31,7 @@ data(){
 li {
     height:100%;
     width:80px;
+    cursor: pointer;
     &:hover{
         transition: .3s;
         background-color: $main;
@@ -44,19 +45,21 @@ li {
         }
     }
     img{
-        width:20px
+        width:20px;
     }
 }
 .logo {
     width: 120px;
     height:100%;
     margin-right: 80px;
+    cursor:pointer;
 }
 h4{
     font-size: .7rem;
-    font-weight: 400;
+    font-weight: 200;
     color: $secondary;
     margin: 5px 0;
+    font-family: 'Lato', sans-serif;
 
 }
 </style>
