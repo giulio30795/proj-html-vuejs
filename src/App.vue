@@ -2,7 +2,8 @@
   <div id="app">
     <Header />
     <Jumbo />
-    <Maincontent />
+    <Maincontent
+      />
     <Footer />
   </div>
 </template>
