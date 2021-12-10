@@ -20,6 +20,7 @@ props: {
 
 <style scoped lang="scss">
 @import "@/style/variables.scss";
+
 h2 {
     color: $secondary;
     font-weight: 200;

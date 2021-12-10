@@ -10,6 +10,10 @@
         <WelcomePart />
         <OurMission />
         <Numbers />
+        <Divider 
+        :Title="Title2"
+        :Subtitle="Subtitle2"/>
+
 
     </div>
 </template>
@@ -38,6 +42,8 @@ data() {
         Button1: 'Learn More',
         Title1: 'Welcome to Fable',
         Subtitle1: 'Fable daycare, preschool, and kindergarten',
+        Title2: 'Our Classes',
+        Subtitle2: 'Our preschool program has four dedicated classes'
     }
 },
 

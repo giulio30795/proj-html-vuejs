@@ -40,9 +40,9 @@ export default {
 
 <style scoped lang="scss">
 @import "@/style/variables.scss";
-section{
+section {
     color: white;
-    background-image: url('../assets/images/parallax_01.jpg');
+    background-image: url("../assets/images/parallax_01.jpg");
     background-position: center;
 }
 
@@ -56,15 +56,14 @@ li span {
     border: 2px solid white;
 }
 
-.square{
+.square {
     width: 40px;
     height: 10px;
     border: 2px solid white;
     margin: 0 8px;
 }
 
-.square:first-child{
+.square:first-child {
     transform: translateY(-8px);
 }
-
 </style>
