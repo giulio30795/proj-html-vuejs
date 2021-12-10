@@ -14,6 +14,7 @@
         :Title="Title2"
         :Subtitle="Subtitle2"/>
         <Classes />
+        <Goals />
 
     </div>
 </template>
@@ -25,6 +26,7 @@ import WelcomePart from './WelcomePart.vue'
 import OurMission from './OurMission.vue'
 import Numbers from './Numbers.vue'
 import Classes from './Classes.vue'
+import Goals from './Goals.vue'
 
 export default {
 name: 'Maincontent',
@@ -36,6 +38,7 @@ components:{
     OurMission,
     Numbers,
     Classes,
+    Goals,
 },
 
 data() {
