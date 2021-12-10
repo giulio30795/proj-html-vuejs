@@ -1,5 +1,5 @@
 <template>
-    <section class="py-5">
+    <section class="pt-5">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-4">
@@ -96,19 +96,23 @@
                 </div>
             </div>
         </div>
+        <img src="../assets/images/gallery_01-690x506.jpg" alt="Bambini" />
+        <img src="../assets/images/gallery_02.jpg" alt="Bambini" />
+        <img src="../assets/images/gallery_03-690x506.jpg" alt="Bambini" />
+        <img src="../assets/images/gallery_04-690x506.jpg" alt="Bambini" />
     </section>
 </template>
 
 <script>
-import GoalsList from '@/DevData/GoalsList.js'
+import GoalsList from "@/DevData/GoalsList.js";
 export default {
     name: "Goals",
 
-    data(){
+    data() {
         return {
             GoalsList: GoalsList,
-        }
-    }
+        };
+    },
 };
 </script>
 
@@ -119,7 +123,8 @@ section {
     background-color: $background-grey;
 }
 
-h3, h4 {
+h3,
+h4 {
     color: $secondary;
     font-weight: 300;
 }
@@ -128,14 +133,17 @@ li {
     color: $text-grey;
 }
 
-.circle{
+.circle {
     background-color: white;
-    width:80px;
+    width: 80px;
     height: 80px;
     border-radius: 40px;
     vertical-align: middle;
-    img{
+    img {
         width: 30px;
     }
+}
+section > img {
+    width: 25%;
 }
 </style>
