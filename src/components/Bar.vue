@@ -1,7 +1,7 @@
 <template>
     <div class="bar">
         <div
-            class="container d-flex justify-content-evenly py-5 align-items-center"
+            class="container d-flex justify-content-evenly align-items-center"
         >
             <div class="text">
                 {{ MainText }}
@@ -29,6 +29,7 @@ export default {
 .bar {
     background-image: url("../assets/images/pattern.png");
     color: white;
+    padding: 30px 0;
 }
 .text {
     font-size: 1.5rem;

@@ -15,6 +15,14 @@
         :Subtitle="Subtitle2"/>
         <Classes />
         <Goals />
+        <Bar
+        :MainText="mainText2"
+        :ButtonText="Button2" />
+        <Divider 
+        :Title="Title3"
+        :Subtitle="Subtitle3"
+        />
+        <Staff />
 
     </div>
 </template>
@@ -27,6 +35,9 @@ import OurMission from './OurMission.vue'
 import Numbers from './Numbers.vue'
 import Classes from './Classes.vue'
 import Goals from './Goals.vue'
+import Staff from './Staff.vue'
+
+
 
 export default {
 name: 'Maincontent',
@@ -39,6 +50,7 @@ components:{
     Numbers,
     Classes,
     Goals,
+    Staff,
 },
 
 data() {
@@ -48,7 +60,11 @@ data() {
         Title1: 'Welcome to Fable',
         Subtitle1: 'Fable daycare, preschool, and kindergarten',
         Title2: 'Our Classes',
-        Subtitle2: 'Our preschool program has four dedicated classes'
+        Subtitle2: 'Our preschool program has four dedicated classes',
+        mainText2: 'See Our Kindergarten Photo Gallery!',
+        Button2: 'View Gallery',
+        Title3: 'Meet Our Staff',
+        Subtitle3: 'With education and experience in early childhood care',
     }
 },
 
