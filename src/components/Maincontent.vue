@@ -9,6 +9,7 @@
         :Subtitle="Subtitle1"/>
         <WelcomePart />
         <OurMission />
+        <Numbers />
 
     </div>
 </template>
@@ -18,6 +19,8 @@ import Bar from './Bar.vue'
 import Divider from './Divider.vue'
 import WelcomePart from './WelcomePart.vue'
 import OurMission from './OurMission.vue'
+import Numbers from './Numbers.vue'
+
 export default {
 name: 'Maincontent',
 
@@ -26,6 +29,7 @@ components:{
     Divider,
     WelcomePart,
     OurMission,
+    Numbers,
 },
 
 data() {
