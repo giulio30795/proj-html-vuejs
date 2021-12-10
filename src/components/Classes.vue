@@ -12,28 +12,41 @@
                 </p>
             </div>
 
-            <ul class="row justify-content-center">
-                <li v-for="(element, index) in ClassList" :key="`class-${index}`"
-                class="col-4">
-                    <div>
-                        <h4>{{element.title}}</h4>
-                        <div>{{element.subtitle}}</div>
+            <ul class="row justify-content-center flex-wrap list-unstyled">
+                <li v-for="(element, index) in ClassElement" :key="`class-${index}`"
+                class="col-4 d-flex mx-2 my-3">
+                    <div class=" left d-flex flex-column w-50 justify-content-between p-2">
                         <div>
-                            <div>
-                                <div>
+                            <div class="fs-5">{{element.title}}</div>
+                            <div class="grey">{{element.subtitle}}</div>
+                        </div>
+                        <div class="d-flex justify-content-around">
+                            <div class="box-border">
+                                <div class="text-center">
                                     {{element.age}}
                                 </div>
-                                <div>{{element.old}}
+                                <div class="grey">{{element.old}}
 
                                 </div>
                             </div>
                             <div>
-                                <div>
+                                <div class="text-center">
                                     {{element.class_size}}
                                 </div>
-                                <div>
+                                <div class="grey">
                                     {{element.class}}
                                 </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class=" right w-50">
+                        <img :src="require(`../assets/images/${element.img}`)" alt="Bambini">
+                        <div>
+                            <div class="d-flex justify-content-center align-items-center"> 
+                                <span>
+                                    Read More
+                                </span>
+                                <img src="../assets/images/slider_next.png" alt="next">
                             </div>
                         </div>
                     </div>
@@ -48,20 +61,59 @@ import ClassList from '@/DevData/ClassList.js'
 export default {
 name:'Classes',
 
-ClassList: ClassList,
+data(){
+    return{
+        ClassElement: ClassList,
+    }
+}
 
 }
 </script>
 
 <style scoped lang="scss">
 @import "@/style/variables.scss";
-
+img{
+    max-width: 100%;
+    height: 100%;
+}
+li{
+    color: white;
+    font-size: .9rem;
+    .grey{
+        color: #c5c3de;
+    }
+}
 .title{
     color: $secondary;
     font-weight: 300;
 }
 .description{
     color: $text-grey;
+}
+.left{
+    background-color: $secondary;
+}
+.box-border{
+    border-right: 1px solid #c5c3de;
+    padding-right: 15px;
+}
+.right{
+    position: relative;
+    div:first-child {
+        font-size: .7rem;
+        padding: 5px 5px 5px 10px;
+        background-color: $main;
+        color:white;
+        text-transform: uppercase;
+        width: 50%;
+        position: absolute;
+        right:0;
+        bottom: 0;
+        img{
+            width: 20px;
+        }
+    }
+
 }
 
 </style>

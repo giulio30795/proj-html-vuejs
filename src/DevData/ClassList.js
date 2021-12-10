@@ -7,6 +7,7 @@ export default
         old: 'Month olds',
         class_size: 9,
         class: 'class size',
+        img: 'gallery_04.jpg'
     },
 
     {
@@ -16,6 +17,7 @@ export default
         old: 'Years olds',
         class_size: 12,
         class: 'class size',
+        img: 'parallax_02.jpg'
     },
 
     {
@@ -25,6 +27,7 @@ export default
         old: 'Years olds',
         class_size: 15,
         class: 'class size',
+        img: 'class_03-690x506.jpg',
     },
 
     {
@@ -34,5 +37,6 @@ export default
         old: 'Years olds',
         class_size: 20,
         class: 'class size',
+        img: 'class_04-690x506.jpg',
     },
 ]
