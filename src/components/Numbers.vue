@@ -1,18 +1,27 @@
 <template>
     <section class="py-5">
-        <ul class="list-unstyled container d-flex justify-content-center">
+        <ul class="list-unstyled container d-flex justify-content-center py-3">
             <li
                 class="col-2 text-center d-flex flex-column justify-content-start align-items-center"
                 v-for="(element, index) in NumberElements"
                 :key="`number-${index}`"
             >
-                <div class="d-flex justify-content-center align-items-center">
+                <span class="d-flex justify-content-center align-items-center">
                     {{ element.number }}
-                </div>
-                <h5 class="my-3">{{ element.title }}</h5>
+                </span>
+                <h5 class="my-4">{{ element.title }}</h5>
                 <p>{{ element.text }}</p>
             </li>
         </ul>
+        <div class="container d-flex justify-content-center py-3">
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+            <div class="square"></div>
+        </div>
     </section>
 </template>
 
@@ -34,16 +43,28 @@ export default {
 section{
     color: white;
     background-image: url('../assets/images/parallax_01.jpg');
+    background-position: center;
 }
 
-div {
-    width: 100px;
+li span {
+    width: 150px;
+    height: 150px;
     font-size: 2rem;
     font-weight: 100;
-    height: 100px;
-    border-radius: 50px;
+    border-radius: 75px;
     vertical-align: middle;
-    border: 1px solid white;
+    border: 2px solid white;
+}
+
+.square{
+    width: 40px;
+    height: 10px;
+    border: 2px solid white;
+    margin: 0 8px;
+}
+
+.square:first-child{
+    transform: translateY(-8px);
 }
 
 </style>

@@ -9,7 +9,7 @@ export default
     {
         number: '235',
         title: 'Teaching Ours',
-        text: 'Elipsis morbi nulla a metro interdum vitae elite..',
+        text: 'Elipsis morbi nulla a metro interdum vitae elite.',
     },
 
     {
