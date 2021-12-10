@@ -8,6 +8,7 @@
         :Title="Title1"
         :Subtitle="Subtitle1"/>
         <WelcomePart />
+        <OurMission />
 
     </div>
 </template>
@@ -16,6 +17,7 @@
 import Bar from './Bar.vue'
 import Divider from './Divider.vue'
 import WelcomePart from './WelcomePart.vue'
+import OurMission from './OurMission.vue'
 export default {
 name: 'Maincontent',
 
@@ -23,6 +25,7 @@ components:{
     Bar,
     Divider,
     WelcomePart,
+    OurMission,
 },
 
 data() {

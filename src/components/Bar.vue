@@ -1,12 +1,14 @@
 <template>
     <div class="bar">
-        <div class=" container d-flex justify-content-evenly py-5 align-items-center">
+        <div
+            class="container d-flex justify-content-evenly py-5 align-items-center"
+        >
             <div class="text">
-                {{MainText}}
+                {{ MainText }}
             </div>
             <div class="button">
-                <a href="#">{{ButtonText}}</a>
-                <img src="../assets/images/slider_next.png" alt="">
+                <a href="#">{{ ButtonText }}</a>
+                <img src="../assets/images/slider_next.png" alt="" />
             </div>
         </div>
     </div>
@@ -14,33 +16,33 @@
 
 <script>
 export default {
-name: 'Bar',
+    name: "Bar",
 
-props:{
-    MainText: String,
-    ButtonText: String,
-}
-}
+    props: {
+        MainText: String,
+        ButtonText: String,
+    },
+};
 </script>
 
 <style scoped lang="scss">
-.bar{
-    background-image: url('../assets/images/pattern.png');
-    color:white;
-    }
-.text{
+.bar {
+    background-image: url("../assets/images/pattern.png");
+    color: white;
+}
+.text {
     font-size: 1.5rem;
     font-weight: 100;
 }
-.button{
+.button {
     border: 1px solid white;
     text-transform: uppercase;
     padding: 5px 0px 5px 15px;
 }
-a{
+a {
     color: white;
     text-decoration: none;
-    &:hover{
+    &:hover {
         color: currentcolor;
     }
 }
