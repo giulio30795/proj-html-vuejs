@@ -28,7 +28,12 @@
         :Title="Title4"
         :Subtitle="Subtitle4"
         />
-
+        <Card 
+        :img="img1"
+        :number="number1"
+        :titleCard="titleCard1"
+        :role="role1"
+        />
 
     </div>
 </template>
@@ -43,6 +48,7 @@ import Classes from './Classes.vue'
 import Goals from './Goals.vue'
 import Staff from './Staff.vue'
 import FablePlace from './FablePlace.vue'
+import Card from './Card.vue'
 
 
 
@@ -59,6 +65,7 @@ components:{
     Goals,
     Staff,
     FablePlace,
+    Card,
 },
 
 data() {
@@ -75,6 +82,10 @@ data() {
         Subtitle3: 'With education and experience in early childhood care',
         Title4: "What's New",
         Subtitle4: 'Keep up to date with the latest news',
+        img1: require('../assets/images/blog_10.jpg'),
+        number1: 42,
+        titleCard1: 'Drawing and Painting Lessons',
+        role1:"Event's Fun",
     }
 },
 
