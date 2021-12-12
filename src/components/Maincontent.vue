@@ -24,6 +24,11 @@
         />
         <Staff />
         <FablePlace />
+        <Divider 
+        :Title="Title4"
+        :Subtitle="Subtitle4"
+        />
+
 
     </div>
 </template>
@@ -68,6 +73,8 @@ data() {
         Button2: 'View Gallery',
         Title3: 'Meet Our Staff',
         Subtitle3: 'With education and experience in early childhood care',
+        Title4: "What's New",
+        Subtitle4: 'Keep up to date with the latest news',
     }
 },
 
