@@ -23,6 +23,7 @@
         :Subtitle="Subtitle3"
         />
         <Staff />
+        <FablePlace />
 
     </div>
 </template>
@@ -36,6 +37,7 @@ import Numbers from './Numbers.vue'
 import Classes from './Classes.vue'
 import Goals from './Goals.vue'
 import Staff from './Staff.vue'
+import FablePlace from './FablePlace.vue'
 
 
 
@@ -51,6 +53,7 @@ components:{
     Classes,
     Goals,
     Staff,
+    FablePlace,
 },
 
 data() {
