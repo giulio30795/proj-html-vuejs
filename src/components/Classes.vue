@@ -112,7 +112,7 @@ li {
 .right {
     position: relative;
     div:first-child {
-        font-size: .8rem;
+        font-size: 0.8rem;
         padding: 5px 5px 5px 10px;
         background-color: $main;
         color: white;

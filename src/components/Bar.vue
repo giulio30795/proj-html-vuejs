@@ -1,15 +1,12 @@
 <template>
     <div class="bar">
-        <div
-            class="container d-flex justify-content-around align-items-center"
-        >
+        <div class="container d-flex justify-content-around align-items-center">
             <div class="text">
                 {{ MainText }}
             </div>
             <div class="button">
                 <a href="#">{{ ButtonText }}</a>
-                <i class=" mx-3 fas fa-angle-right"></i>
-
+                <i class="mx-3 fas fa-angle-right"></i>
             </div>
         </div>
     </div>
@@ -42,9 +39,9 @@ export default {
     text-transform: uppercase;
     padding: 7px 0px 5px 15px;
     transition: all 0.3s;
-    &:hover{
+    &:hover {
         background-color: white;
-        cursor:pointer;
+        cursor: pointer;
         &:hover a {
             color: $secondary;
         }
@@ -52,7 +49,6 @@ export default {
             color: $secondary;
         }
     }
-
 }
 a {
     color: white;
