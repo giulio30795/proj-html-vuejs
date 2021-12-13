@@ -24,16 +24,7 @@
         />
         <Staff />
         <FablePlace />
-        <Divider 
-        :Title="Title4"
-        :Subtitle="Subtitle4"
-        />
-        <Card 
-        :img="img1"
-        :number="number1"
-        :titleCard="titleCard1"
-        :role="role1"
-        />
+        <WhatsNew />
 
     </div>
 </template>
@@ -48,7 +39,7 @@ import Classes from './Classes.vue'
 import Goals from './Goals.vue'
 import Staff from './Staff.vue'
 import FablePlace from './FablePlace.vue'
-import Card from './Card.vue'
+import WhatsNew from './WhatsNew.vue'
 
 
 
@@ -65,7 +56,7 @@ components:{
     Goals,
     Staff,
     FablePlace,
-    Card,
+    WhatsNew,
 },
 
 data() {

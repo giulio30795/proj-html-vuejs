@@ -1,5 +1,5 @@
 <template>
-    <div class="col-2 ">
+    <div class="col-3 p-4">
         <div class="grey my-2">October 03, 2014</div>
         <div class="rel"> 
             <img :src="img" alt="Bambini">
@@ -56,17 +56,19 @@ props: {
 span{
     color: $text-grey;
     font-size: .7rem;
-    margin: 0 8px;
+    margin: 0 5px;
     vertical-align: center;
 }
 h5{
     color: $secondary;
-    font-weight:100;
+    font-weight:300;
     font-size: 1.1rem;
 }
 p{
     padding:10px 0;
+    margin: 0;
     border-bottom: .2px solid $text-grey;
+    margin-bottom: 5px;
 }
 img{
     max-width: 100%;
