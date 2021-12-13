@@ -5,8 +5,16 @@
                 <div class="row justify-content-center mx-4">
                     <div class="col-3 px-4">
                         <h5>About Us</h5>
-                        <p>Elipsis magna a nulla elite forte maecenas est elementum magna etos interdum movum morbi vehicula morbi. </p>
-                        <img class="logo" src="../assets/images/logo_footer.png" alt="">
+                        <p>
+                            Elipsis magna a nulla elite forte maecenas est
+                            elementum magna etos interdum movum morbi vehicula
+                            morbi.
+                        </p>
+                        <img
+                            class="logo"
+                            src="../assets/images/logo_footer.png"
+                            alt=""
+                        />
                     </div>
                     <div class="col-3 px-4">
                         <h5>Archives</h5>
@@ -19,7 +27,10 @@
                     </div>
                     <div class="col-3 px-4">
                         <h5>Our Features</h5>
-                        <p>Nunc gravida rutrum mauris vehin hasellus ac pretium augue vivamul lacus ligul mattis ac vene: </p>
+                        <p>
+                            Nunc gravida rutrum mauris vehin hasellus ac pretium
+                            augue vivamul lacus ligul mattis ac vene:
+                        </p>
                         <ul class="list-unstyled">
                             <li class="d-flex align-items-center my-2">
                                 <img
@@ -35,9 +46,7 @@
                                     src="../assets/images/style_4_alt.png"
                                     alt="check"
                                 />
-                                <div class="ms-2">
-                                    Science and art classes
-                                </div>
+                                <div class="ms-2">Science and art classes</div>
                             </li>
                             <li class="d-flex align-items-center my-2">
                                 <img
@@ -53,9 +62,7 @@
                                     src="../assets/images/style_4_alt.png"
                                     alt="check"
                                 />
-                                <div class="ms-2">
-                                    Educational field trips
-                                </div>
+                                <div class="ms-2">Educational field trips</div>
                             </li>
                             <li class="d-flex align-items-center my-2">
                                 <img
@@ -71,54 +78,77 @@
                                     src="../assets/images/style_4_alt.png"
                                     alt="check"
                                 />
-                                <div class="ms-2">
-                                    Science and art classes
-                                </div>
+                                <div class="ms-2">Science and art classes</div>
                             </li>
                         </ul>
                     </div>
                     <div class="col-3 px-4">
                         <h5>Recent Post</h5>
-                        <div class="d-flex justify-content-center align-items-center">
+                        <div
+                            class="d-flex justify-content-center align-items-center"
+                        >
                             <div
                                 class="img-container d-flex justify-content-center align-items-center"
                             >
-                                <img src="../assets/images/blog_09-150x150.jpg" alt="clock" />
+                                <img
+                                    src="../assets/images/blog_09-150x150.jpg"
+                                    alt="clock"
+                                />
                             </div>
                             <div>
                                 <h6>Drawing and Painting Lessons</h6>
-                                <span> <img src="../assets/images/date_footer.png" alt=""></span>
+                                <span>
+                                    <img
+                                        src="../assets/images/date_footer.png"
+                                        alt=""
+                                /></span>
                                 <span>October 03, 2014</span>
                             </div>
                         </div>
 
-                        <div class="d-flex justify-content-center align-items-center">
+                        <div
+                            class="d-flex justify-content-center align-items-center"
+                        >
                             <div
                                 class="img-container d-flex justify-content-center align-items-center"
                             >
-                                <img src="../assets/images/blog_10-150x150.jpg" alt="clock" />
+                                <img
+                                    src="../assets/images/blog_10-150x150.jpg"
+                                    alt="clock"
+                                />
                             </div>
                             <div>
                                 <h6>Fall Parents Meeting Day</h6>
-                                <span> <img src="../assets/images/date_footer.png" alt=""></span>
+                                <span>
+                                    <img
+                                        src="../assets/images/date_footer.png"
+                                        alt=""
+                                /></span>
                                 <span>October 03, 2014</span>
-
                             </div>
                         </div>
 
-                        <div class="d-flex justify-content-center align-items-center">
+                        <div
+                            class="d-flex justify-content-center align-items-center"
+                        >
                             <div
                                 class="img-container d-flex justify-content-center align-items-center"
                             >
-                                <img src="../assets/images/blog_08-150x150.jpg" alt="clock" />
+                                <img
+                                    src="../assets/images/blog_08-150x150.jpg"
+                                    alt="clock"
+                                />
                             </div>
                             <div>
                                 <h6>Birthday in Kindergarten</h6>
-                                <span> <img src="../assets/images/date_footer.png" alt=""></span>
+                                <span>
+                                    <img
+                                        src="../assets/images/date_footer.png"
+                                        alt=""
+                                /></span>
                                 <span>september 20, 2014</span>
                             </div>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -128,43 +158,45 @@
 </template>
 
 <script>
-import Social from './Social.vue'
+import Social from "./Social.vue";
 export default {
-name: 'Footer',
-components:{
-    Social,
-}
-}
+    name: "Footer",
+    components: {
+        Social,
+    },
+};
 </script>
 
 <style scoped lang="scss">
 @import "@/style/variables.scss";
-section{
-     background-image: url('../assets/images/pattern.png');
-     color: $footer-color;
+section {
+    background-image: url("../assets/images/pattern.png");
+    color: $footer-color;
 }
-.logo{
+.logo {
     max-width: 75%;
 }
-p, li, span{
-    font-size: .8rem;
+p,
+li,
+span {
+    font-size: 0.8rem;
     font-weight: 500;
 }
 
-h5{
+h5 {
     color: white;
     text-transform: uppercase;
     margin-bottom: 30px;
 }
 
-h6{
+h6 {
     color: white;
 }
 
-.month{
-    border: .8px solid $footer-color;
+.month {
+    border: 0.8px solid $footer-color;
     font-weight: 600;
-    font-size: .7rem;
+    font-size: 0.7rem;
     text-transform: uppercase;
     padding: 10px;
     width: 100%;
@@ -179,8 +211,7 @@ h6{
         height: 80px;
     }
 }
-div:last-child span{
+div:last-child span {
     margin-right: 5px;
 }
-
 </style>

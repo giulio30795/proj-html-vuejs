@@ -1,6 +1,8 @@
 <template>
     <section class="py-5 px-5">
-        <ul class="list-unstyled container d-flex justify-content-center py-3 px-5">
+        <ul
+            class="list-unstyled container d-flex justify-content-center py-3 px-5"
+        >
             <li
                 class="col-3 text-center d-flex flex-column justify-content-start align-items-center px-4"
                 v-for="(element, index) in NumberElements"
