@@ -20,6 +20,9 @@
                 <div class="row">
                     <div class="img-container col-6 d-flex justify-content-between flex-column">
                         <img :src="require(`../assets/images/${element.img}`)" alt="Teacher">
+                            <div class="plus d-flex justify-content-center align-items-center">
+                                <img src="../assets/images/image_overlay.png" alt="overlay">
+                            </div>
                         <div class="text-center mt-3">
                             <h6>
                                 {{element.name}}
@@ -104,6 +107,26 @@ li{
             width:30%
         }
     }
+}
+.img-container{
+    position: relative;
+    cursor:pointer;
+    &:hover .plus{
+        opacity: .5;
+    }
+}
+.plus{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    background-color: $secondary;
+    position: absolute;
+    left: 50%;
+    top:35%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all .3s;
+
 }
 span{
     background-color: $main;
