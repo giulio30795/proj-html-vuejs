@@ -4,7 +4,7 @@
         :Title="Title5"
         :Subtitle="Subtitle5"
         />
-    <div class="container d-flex justify-content-center">
+    <div class="container d-flex justify-content-center px-5">
             <ContactCard v-for="(element, index) in ContactList" :key="`contact-${index}`"
             :img="element.img"
             :title="element.title"
@@ -13,13 +13,13 @@
             :info3="element.info3"
             />
     </div>
-    <div class="container d-flex justify-content-center">
-        <div class="col-4 mt-5 me-3 d-flex flex-column justify-content-between">
+    <div class="container d-flex justify-content-center px-5">
+        <div class="col-6 mt-5 px-4 d-flex flex-column justify-content-between">
             <input type="text" placeholder="Your Name*">
             <input class="" type="email" placeholder="Your Email*">
             <input type="text" placeholder="Subject">
         </div>
-        <div class="col-4 mt-5">
+        <div class="col-6 mt-5 px-4">
             <textarea name="" placeholder="Your Message*" id="" cols="50" rows="6"></textarea>
         </div>
     </div>

@@ -1,8 +1,8 @@
 <template>
-    <section class="py-5">
-        <ul class="list-unstyled container d-flex justify-content-center py-3">
+    <section class="py-5 px-5">
+        <ul class="list-unstyled container d-flex justify-content-center py-3 px-5">
             <li
-                class="col-2 text-center d-flex flex-column justify-content-start align-items-center"
+                class="col-3 text-center d-flex flex-column justify-content-start align-items-center px-4"
                 v-for="(element, index) in NumberElements"
                 :key="`number-${index}`"
             >
@@ -10,7 +10,7 @@
                     {{ element.number }}
                 </span>
                 <h5 class="my-4">{{ element.title }}</h5>
-                <p>{{ element.text }}</p>
+                <p class="px-3">{{ element.text }}</p>
             </li>
         </ul>
         <div class="container d-flex justify-content-center py-3">
@@ -47,11 +47,11 @@ section {
 }
 
 li span {
-    width: 150px;
-    height: 150px;
-    font-size: 2rem;
+    width: 180px;
+    height: 180px;
+    font-size: 2.8rem;
     font-weight: 100;
-    border-radius: 75px;
+    border-radius: 90px;
     vertical-align: middle;
     border: 2px solid white;
 }

@@ -1,5 +1,5 @@
 <template>
-    <div class="col-2 text-center">
+    <div class="col-2 text-center mx-3">
         <img :src="img" alt="Contact-img">
         <h5 class="my-3">{{title}}</h5>
         <div>{{info1}}</div>
@@ -27,6 +27,7 @@ props:{
 h5{
     color: $secondary;
     font-weight: 300;
+    font-size: 1.4rem;
 }
 div > div {
     color: $text-grey;

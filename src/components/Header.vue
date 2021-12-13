@@ -1,8 +1,8 @@
 <template>
-    <header class=" container d-flex justify-content-center align-items-center">
+    <header class=" container d-flex justify-content-around align-items-center px-5">
         <img class="logo" src="../assets/logo.png" alt="logo-fable">
-        <ul class="list-unstyled d-flex mb-0">
-            <li class=" d-flex flex-column align-items-center py-3 px-2" v-for="(element, index) in headerElements" :key="`list-${index}`">
+        <ul class="list-unstyled d-flex mb-0 my-0 h-100">
+            <li class=" d-flex flex-column align-items-center justify-content-center px-2 my-0" v-for="(element, index) in headerElements" :key="`list-${index}`">
                 <img class="mb-1" :src="require(`@/assets/${element.img}`)" :alt="element.img">
                 <h4>{{element.text}}</h4>
             </li>
@@ -29,8 +29,8 @@ data(){
 @import "@/style/variables.scss";
 
 li {
-    height:100%;
-    width:80px;
+    height:120px;
+    width:100px;
     cursor: pointer;
     &:hover{
         transition: .3s;
@@ -45,17 +45,17 @@ li {
         }
     }
     img{
-        width:20px;
+        width:30px;
     }
 }
 .logo {
-    width: 120px;
+    width: 180px;
     height:100%;
     margin-right: 80px;
     cursor:pointer;
 }
 h4{
-    font-size: .7rem;
+    font-size: 1rem;
     font-weight: 200;
     color: $secondary;
     margin: 5px 0;

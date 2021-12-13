@@ -1,10 +1,10 @@
 <template>
     <section>
-        <div class="container py-5 d-flex justify-content-center">
-            <div class="col-4">
+        <div class="container py-5 d-flex justify-content-center px-5">
+            <div class="col-6 px-5">
                 <span class="overview me-3">Overview</span>
                 <span class="mission">Our Mission</span>
-                <h3 class="my-4">
+                <h3 class="my-5">
                     Our philosophy is learning through play as we offer a
                     stimulating environment for children.
                 </h3>
@@ -17,7 +17,7 @@
                     </div>
                     <div>
                         <h5>Full Day Sessions</h5>
-                        <p>
+                        <p class="my-4">
                             Pulvinar est metro ligula blandit maecenas retrum
                             gravida cuprum. Maecenas node estibulum.
                         </p>
@@ -34,14 +34,14 @@
                     </div>
                     <div>
                         <h5>Varied Class</h5>
-                        <p>
+                        <p class="my-4">
                             Pulvinar est metro ligula blandit maecenas retrum
                             gravida cuprum. Maecenas node estibulum.
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-4">
+            <div class="col-6 px-5">
                 <div class="big-image">
                     <img src="../assets/images/gallery_01.jpg" alt="Bambini" />
                     <div class="slider-right">
@@ -100,14 +100,15 @@ section {
 h3 {
     color: $secondary;
     font-weight: 300;
+    font-size: 2rem;
 }
 
 .img-container {
     margin-right: 30px;
     background-color: $main;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
     flex-shrink: 0;
     img {
         width: 30px;

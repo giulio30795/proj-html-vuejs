@@ -1,14 +1,14 @@
 <template>
     <section class="container pb-4">
-        <div class="row justify-content-center">
-            <div class="col-4">
-                <h3 class="title">
+        <div class="row justify-content-center px-2">
+            <div class="col-6 px-5">
+                <h3 class="title ps-4">
                     We provided four classes with nine to twenty children each
                     aged twelve month to five years of age.
                 </h3>
             </div>
-            <div class="col-4">
-                <p class="description">
+            <div class="col-6 ps-4 pe-5">
+                <p class="description pe-2">
                     Praesent arcu gravida vehicula est node maecenas loareet
                     morbi a dosis luctus. Urna eget lacinia eleifend praesent
                     luctus a arcu quis facilisis venenatis. Aenean interdum,
@@ -16,14 +16,14 @@
                 </p>
             </div>
 
-            <ul class="row justify-content-center flex-wrap list-unstyled">
+            <ul class="row justify-content-center flex-wrap list-unstyled px-5">
                 <li
                     v-for="(element, index) in ClassElement"
                     :key="`class-${index}`"
-                    class="col-4 d-flex mx-2 my-3"
+                    class="col-6 mx-0 d-flex px-4 my-3"
                 >
                     <div
-                        class="left d-flex flex-column w-50 justify-content-between p-2"
+                        class="left d-flex flex-column w-50 justify-content-between p-3"
                     >
                         <div>
                             <div class="fs-5">{{ element.title }}</div>
@@ -112,12 +112,13 @@ li {
 .right {
     position: relative;
     div:first-child {
-        font-size: 0.7rem;
+        font-size: .8rem;
         padding: 5px 5px 5px 10px;
         background-color: $main;
         color: white;
         text-transform: uppercase;
         width: 50%;
+        height: 40px;
         position: absolute;
         right: 0;
         bottom: 0;

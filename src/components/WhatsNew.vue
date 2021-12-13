@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container px-5">
         <div>
             <Divider :Title="Title4" :Subtitle="Subtitle4" />
         </div>
@@ -30,7 +30,7 @@
             <div
                 class="bottone d-flex justify-content-center align-items-center"
             >
-                <span> Read More </span>
+                <span>Go To Blog</span>
                 <img src="../assets/images/slider_next.png" alt="next" />
             </div>
         </div>
@@ -74,8 +74,8 @@ export default {
 
 .bottone {
     font-size: 0.8rem;
-    font-weight: 400;
-    padding: 5px 5px 5px 12px;
+    font-weight: 500;
+    padding: 3px 5px 5px 10px;
     background-color: $main;
     color: white;
     text-transform: uppercase;

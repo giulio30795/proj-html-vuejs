@@ -8,7 +8,7 @@
             >
                 <img src="../assets/images/quote_alt.png" alt="" />
             </div>
-            <p class="pb-2 pt-4 fs-2 text-center">
+            <p class="pb-2 pt-4 fs-1 text-center">
                 Fable Kindergarten is a great place for my daughter to start her
                 schooling experience. It's welcoming and safe and my daughter
                 loves being there.

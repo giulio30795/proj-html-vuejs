@@ -1,13 +1,13 @@
 <template>
     <section class="pt-5">
         <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-4">
+            <div class="row justify-content-center px-4">
+                <div class="col-6 ps-5 mb-5">
                     <h3>
                         We have been educating children for over fifteen years.
                         Our goal is to create a place that engages each child.
                     </h3>
-                    <p>
+                    <p class="my-4">
                         Praesent arcu gravida vehicula est node maecenas loareet
                         morbi a dosis luctus. Urna eget lacinia eleifend
                         praesent luctus a arcu quis facilisis venenatis aenean
@@ -72,7 +72,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="col-4">
+                <div class="col-6 pe-5 mb-5">
                     <ul class="d-flex justify-content-center flex-wrap">
                         <li
                             class="col-6 text-center d-flex flex-column justify-content-start align-items-center"

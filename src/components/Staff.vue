@@ -1,13 +1,13 @@
 <template>
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-4">
+    <div class="container px-5">
+        <div class="row justify-content-center pe-2">
+            <div class="col-6 px-5">
                 <h3>
                     Our staff consists of three teachers and one assistant with experience in early childhood care.
                 </h3>
                 
             </div>
-            <div class="col-4">
+            <div class="col-6 px-5">
                 <p>
                     Praesent arcu gravida vehicula est node maecenas loareet morbi a dosis luctus. Urna eget lacinia eleifend praesent luctus a arcu quis facilisis venenatis. Aenean interdum, nibh vitae sodales, magna ante feugiat elit maecenas.
                 </p>
@@ -16,7 +16,7 @@
 
         <ul class="row justify-content-center flex-wrap list-unstyled">
             <li v-for="(element, index) in StaffList" :key="`Class-${index}`"
-            class="col-4 my-4">
+            class="col-6 mx-0 px-5 my-3">
                 <div class="row">
                     <div class="img-container col-6 d-flex justify-content-between flex-column">
                         <img :src="require(`../assets/images/${element.img}`)" alt="Teacher">

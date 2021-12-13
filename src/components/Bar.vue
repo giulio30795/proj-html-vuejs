@@ -1,7 +1,7 @@
 <template>
     <div class="bar">
         <div
-            class="container d-flex justify-content-evenly align-items-center"
+            class="container d-flex justify-content-around align-items-center"
         >
             <div class="text">
                 {{ MainText }}
@@ -32,7 +32,7 @@ export default {
     padding: 30px 0;
 }
 .text {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 100;
 }
 .button {

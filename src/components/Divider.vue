@@ -23,7 +23,8 @@ props: {
 
 h2 {
     color: $secondary;
-    font-weight: 200;
+    font-size: 3rem;
+    font-weight: 100;
 }
 
 p{

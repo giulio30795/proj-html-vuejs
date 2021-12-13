@@ -1,6 +1,6 @@
 <template>
-    <div class="col-3 p-4">
-        <div class="grey my-2">October 03, 2014</div>
+    <div class="col-4 px-4">
+        <div class="grey my-3">October 03, 2014</div>
         <div class="rel"> 
             <img :src="img" alt="Bambini">
             <div class="box d-flex justify-content-center align-items-center">{{number}}</div>
@@ -37,7 +37,7 @@ props: {
 
 .grey{
     color: $text-grey;
-    font-size: .8rem;
+    font-size: 1rem;
 }
 .box{
     height: 35px;
@@ -55,14 +55,13 @@ props: {
 }
 span{
     color: $text-grey;
-    font-size: .7rem;
-    margin: 0 5px;
+    margin: 0 10px;
     vertical-align: center;
 }
 h5{
     color: $secondary;
     font-weight:300;
-    font-size: 1.1rem;
+    font-size: 1.4rem;
 }
 p{
     padding:10px 0;
