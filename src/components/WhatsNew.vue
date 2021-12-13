@@ -74,6 +74,7 @@ export default {
 
 .bottone {
     font-size: 0.8rem;
+    font-weight: 400;
     padding: 5px 5px 5px 12px;
     background-color: $main;
     color: white;

@@ -26,6 +26,7 @@
         <FablePlace />
         <WhatsNew />
         <Map />
+        <ContactUs />
 
     </div>
 </template>
@@ -42,8 +43,7 @@ import Staff from './Staff.vue'
 import FablePlace from './FablePlace.vue'
 import WhatsNew from './WhatsNew.vue'
 import Map from './Map.vue'
-
-
+import ContactUs from './ContactUs.vue'
 
 export default {
 name: 'Maincontent',
@@ -60,6 +60,7 @@ components:{
     FablePlace,
     WhatsNew,
     Map,
+    ContactUs,
 },
 
 data() {
