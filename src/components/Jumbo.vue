@@ -43,10 +43,10 @@ export default {
 .text {
     color: $main;
     position: absolute;
-    left: 280px;
+    left: 150px;
     top: 120px;
     opacity: 0.1;
-    font-size: 1.4rem;
+    font-size: 2.4rem;
 }
 .gioco1 {
     position: absolute;

@@ -1,5 +1,5 @@
 <template>
-    <ul class="container d-flex justify-content-center list-unstyled px-5">
+    <ul class="container d-flex justify-content-center list-unstyled px-4">
         <li class="col-3 text-center d-flex flex-column justify-content-start align-items-center px-3"
         v-for="(element, index) in WelcomeList" :key="`welcome-${index}`">
             <div class="d-flex justify-content-center align-items-center">
