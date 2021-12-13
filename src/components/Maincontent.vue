@@ -25,6 +25,7 @@
         <Staff />
         <FablePlace />
         <WhatsNew />
+        <Map />
 
     </div>
 </template>
@@ -40,6 +41,7 @@ import Goals from './Goals.vue'
 import Staff from './Staff.vue'
 import FablePlace from './FablePlace.vue'
 import WhatsNew from './WhatsNew.vue'
+import Map from './Map.vue'
 
 
 
@@ -57,6 +59,7 @@ components:{
     Staff,
     FablePlace,
     WhatsNew,
+    Map,
 },
 
 data() {
